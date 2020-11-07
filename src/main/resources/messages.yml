@@ -1,0 +1,30 @@
+# - - - Embeds - - -
+# Choose color codes from https://www.htmlcolor-picker.com/
+
+addmoney-title: "Money added"
+addmoney-description: "[2][1] was added to [0]'s account."
+addmoney-color: "#007CFF"
+
+playeraddmoney-title: "Money added"
+playeraddmoney-description: "[3][2] was added to [0]'s account by [1]."
+playeraddmoney-color: "#007CFF"
+
+playerpay-title: "Money paid"
+playerpay-description: "[3][2] was paid to [0]'s account by [1]."
+playerpay-color: "#007CFF"
+
+playerreduce-title: "Money reduced"
+playerreduce-description: "[3][2] was reduced from [0]'s account by [1]."
+playerreduce-color: "#007CFF"
+
+playerset-title: "Money set"
+playerset-description: "[0]'s account balance was set to [3][2] by [1]."
+playerset-color: "#007CFF"
+
+reducemoney-title: "Money reduced"
+reducemoney-description: "[2][1] was reduced from [0]'s account."
+reducemoney-color: "#007CFF"
+
+setmoney-title: "Money set"
+setmoney-description: "[0]'s account balance was set to [2][1]."
+setmoney-color: "#007CFF"

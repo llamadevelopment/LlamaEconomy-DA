@@ -1,0 +1,8 @@
+name: LlamaEconomy-DA
+version: 1.0.0-SNAPSHOT
+api: 1.0.0
+author: Mundschutziii
+main: net.lldv.llamaeconomyda.LlamaEconomyDA
+description: Discord Announcement-Addon for LlamaEconomy
+depend:
+  - LlamaEconomy
