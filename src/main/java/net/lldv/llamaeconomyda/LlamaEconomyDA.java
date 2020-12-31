@@ -20,7 +20,7 @@ public class LlamaEconomyDA extends PluginBase {
     }
 
     private void loadPlugin() {
-        this.getServer().getPluginManager().registerEvents(new EventListener(this), this);
+        this.getServer().getPluginManager().registerEvents(new EventListener(this.getConfig().getString("webhook.url")), this);
     }
 
 }

@@ -5,22 +5,19 @@ import club.minnced.discord.webhook.send.WebhookEmbed;
 import club.minnced.discord.webhook.send.WebhookEmbedBuilder;
 import cn.nukkit.event.EventHandler;
 import cn.nukkit.event.Listener;
+import lombok.RequiredArgsConstructor;
 import net.lldv.llamaeconomy.LlamaEconomy;
 import net.lldv.llamaeconomy.components.event.*;
-import net.lldv.llamaeconomyda.LlamaEconomyDA;
 import net.lldv.llamaeconomyda.components.language.Language;
 
 import java.awt.*;
 import java.time.Instant;
 import java.time.temporal.TemporalAccessor;
 
+@RequiredArgsConstructor
 public class EventListener implements Listener {
 
     private final String url;
-
-    public EventListener(LlamaEconomyDA instance) {
-        this.url = instance.getConfig().getString("webhook.url");
-    }
 
     @EventHandler
     public void on(AddMoneyEvent event) {
